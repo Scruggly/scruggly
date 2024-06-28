@@ -35,7 +35,7 @@ const charadex = (options) => {
   /* Sifting Through Options
   ======================================================================= */
   const charadexInfo = {
-    sheetID: userOptions.sheetID ? userOptions.sheetID.includes('/d/') ? userOptions.sheetID.split('/d/')[1].split('/edit')[0] : userOptions.sheetID : "1kctL7PMwFAztPHs3dCcZvwAo_il4cKYYcltf9l0bTT4",
+    sheetID: userOptions.sheetID ? userOptions.sheetID.includes('/d/') ? userOptions.sheetID.split('/d/')[1].split('/edit')[0] : userOptions.sheetID : "1wKC9-9ZkKmWzXET3AeZS5ypLrI5hClSAZL5JUokwJxg",
     sheetPage: userOptions.sheetPage ? userOptions.sheetPage : "Public Masterlist",
     itemAmount: userOptions.itemAmount ? userOptions.itemAmount : 12,
     itemOrder: userOptions.itemOrder ? userOptions.itemOrder : "desc",
@@ -78,7 +78,7 @@ const charadex = (options) => {
   /* ==================================================================== */
   /* Fetching the Sheet
   ======================================================================= */
-  fetch(`https://docs.google.com/spreadsheets/d/1kctL7PMwFAztPHs3dCcZvwAo_il4cKYYcltf9l0bTT4/gviz/tq?tqx=out:json&headers=1&sheet=Public Masterlist`)
+  fetch(`https://docs.google.com/spreadsheets/d/1wKC9-9ZkKmWzXET3AeZS5ypLrI5hClSAZL5JUokwJxg/gviz/tq?tqx=out:json&headers=1&sheet=Public Masterlist`)
     .then(i => i.text())
     .then(JSON => {
 
