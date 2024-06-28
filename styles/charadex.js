@@ -78,7 +78,7 @@ const charadex = (options) => {
   /* ==================================================================== */
   /* Fetching the Sheet
   ======================================================================= */
-  fetch(`https://docs.google.com/spreadsheets/d/1kctL7PMwFAztPHs3dCcZvwAo_il4cKYYcltf9l0bTT4/gviz/tq?tqx=out:json&headers=1&sheet=Masterlist Log`)
+  fetch(`https://docs.google.com/spreadsheets/d/1kctL7PMwFAztPHs3dCcZvwAo_il4cKYYcltf9l0bTT4/gviz/tq?tqx=out:json&headers=1&sheet=Public Masterlist`)
     .then(i => i.text())
     .then(JSON => {
 
