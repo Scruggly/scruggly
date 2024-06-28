@@ -7,16 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <!-- ----------------------------------------------------------------- -->
-    <!-- About Your Site                                                   -->
-    <!-- ----------------------------------------------------------------- -->
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
-    <title>Charadex</title>
-    <meta property="title" content="Charadex" />
-    <meta property="type" content="website" />
-    <meta property="url" content="https://www.charadex.com/" />
-    <meta property="image" content="assets/meta.png" />
-    <meta name="description" content="A tool for organizing small ARPGs and species.">
+     <!-- ----------------------------------------------------------------- -->
+  <!-- About Your Site                                                   -->
+  <!-- ----------------------------------------------------------------- -->
+
+  <!-- Website's icon in the browser -->
+  <link rel="shortcut icon" type="image/png" href="https://i.ibb.co/BwscNBZ/dilnyan.png"/>
+
+  <!-- Title of your site -->
+  <title>🌐 scruggly world 🎧</title>
+
+  <!-- Description of your site -->
+  <meta name="description" content="A Closed Species based off of plushies and the 2000s aesthetic!">
 
     <!-- No AI scraping directives -->
     <meta name="robots" content="noai">
@@ -52,11 +54,46 @@
 <body>
 
 
-    <!-- --------------------------------------------------------------------
-    <-- Header
-    <-------------------------------------------------------------------- -->
-    
-    <div class="load-html" id="header" data-source="includes/header.html"></div>
+  <!-- --------------------------------------------------------------------
+  <-- 
+  <-- Navbar 
+  <-- 
+  <-------------------------------------------------------------------- -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="#"><i class="bi bi-box2-heart"></i> Charadex</a>
+
+      <!-- Toggle -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#charadexnav">
+        <i class="bi bi-list"></i>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="charadexnav">
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item"><a class="nav-link" href="Events">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="Traits">Traits</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                Information
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://discord.gg/scrugglyworld">Discord</a>
+              <a class="dropdown-item" href="">ToyHouse (TBA)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="staff.html">About</a>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </nav>
 
 
     <!-- Spinner for loading-->
@@ -98,11 +135,15 @@
     </div>
 
 
-    <!-- --------------------------------------------------------------------
-    <-- Footer
-    <-------------------------------------------------------------------- -->
-    
-    <div class="load-html" id="footer" data-source="includes/footer.html"></div>
+  <-- Footer
+  <-- Please do not remove the credit - other creators might need a
+  <-- similar tool!
+  <-- 
+  <-------------------------------------------------------------------- -->
+  <div class="footer bg-dark p-md-5 p-4 text-center">
+    <p><a class="text-reset" href="">Scruggly/ Scrugglyworld © iban & fleurist</a></p>
+    <p><a href="https://charadex.com">Powered by Charadex</a></p>
+  </div>
 
 
     <!-- --------------------------------------------------------------------
